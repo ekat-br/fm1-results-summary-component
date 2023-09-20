@@ -75,6 +75,7 @@ const SummaryHeading = styled.div`
   display: inline-block;
   @media (max-width: 375px) {
     font-size: 18px;
+    margin-top: 24px;
   }
 `;
 
