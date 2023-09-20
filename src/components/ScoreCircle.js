@@ -34,7 +34,7 @@ const Circle = styled.div`
 
 const Score = styled.div`
   text-align: center;
-  color: var(--White, #fff);
+  color: var(--Light-Blue, #cac9ff);
   text-align: center;
   font-size: 72px;
   font-style: normal;
@@ -52,6 +52,7 @@ const TotalScore = styled.div`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  opacity: 0.5168;
 
   @media (max-width: 375px) {
     font-size: 16px;

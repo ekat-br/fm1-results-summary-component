@@ -10,7 +10,7 @@ const StyledButton = styled.button`
   width: 288px;
   height: 56px;
   border-radius: 128px;
-  background: var(--Dark-Navy, #303b59);
+  background: var(--Dark-Navy);
   color: #ffff;
   font-size: 18px;
   font-style: normal;

@@ -10,7 +10,7 @@ const ResultsSummary = () => {
     <Container>
       <SummaryHeading>Summary</SummaryHeading>
       <Disciplines>
-        <Discipline color="#f55">
+        <Discipline color="var(--primary-light-red)">
           <DisciplineTitle>
             <IconReaction />
             Reaction
@@ -20,7 +20,7 @@ const ResultsSummary = () => {
             <TotalScore> / 100</TotalScore>
           </Score>
         </Discipline>
-        <Discipline color="#ffb21e">
+        <Discipline color="var(--primary-orangey-yellow)">
           <DisciplineTitle>
             <IconMemory />
             Memory
@@ -30,7 +30,7 @@ const ResultsSummary = () => {
             <TotalScore> / 100</TotalScore>
           </Score>
         </Discipline>
-        <Discipline color="#00bb8f">
+        <Discipline color="var(--primary-green-teal)">
           <DisciplineTitle>
             <IconVerbal />
             Verbal
@@ -40,7 +40,7 @@ const ResultsSummary = () => {
             <TotalScore> / 100</TotalScore>
           </Score>
         </Discipline>
-        <Discipline color="#1125D6">
+        <Discipline color="var(--primary-cobalt-blue)">
           <DisciplineTitle>
             <IconVisual />
             Visual
@@ -67,7 +67,7 @@ const Container = styled.div`
   }
 `;
 const SummaryHeading = styled.div`
-  color: var(--Dark-Navy, #303b59);
+  color: var(--Dark-Navy);
   font-size: 24px;
   font-weight: 700;
   line-height: normal;

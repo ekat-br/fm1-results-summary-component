@@ -11,7 +11,7 @@ const ResultsRectangle = () => {
         <ResultComment>
           <ResultHeading>Great</ResultHeading>
           <ResultText>
-            Your performance exceed 65% of the people conducting the test here!
+            You scored higher than 65% of the people who have taken these tests.
           </ResultText>
         </ResultComment>
       </StyledResultsRectangle>
