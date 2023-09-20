@@ -71,9 +71,8 @@ const SummaryHeading = styled.div`
   font-size: 24px;
   font-weight: 700;
   line-height: normal;
-  margin: 24px 0px 28px;
+  margin: 0px 0px 28px;
   display: inline-block;
-
   @media (max-width: 375px) {
     font-size: 18px;
   }
